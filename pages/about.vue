@@ -81,10 +81,10 @@
   import { Component } from "nuxt-property-decorator";
   import { namespace } from "vuex-class";
 
-  import PageBase from "~/lib/page-base";
-  import HaiiroButton from "~/components/HaiiroButton.vue";
+  import PageBase from "../lib/page-base";
+  import HaiiroButton from "../components/HaiiroButton.vue";
 
-  import { name as PixelsNamespace } from "~/store/modules/pixels";
+  import { name as PixelsNamespace } from "../store/modules/pixels";
   const PixelsStore = namespace(PixelsNamespace);
 
   import enData from "~/contents/en/about.md";
@@ -118,7 +118,7 @@
 
     get avatarImageStyle () {
       return {
-        background: "url('/images/about/avatar.jpg')",
+        background: "url('/images/me.jpg')",
         "background-repeat": "no-repeat",
         "background-size": "contain"
       };

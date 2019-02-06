@@ -1,16 +1,12 @@
 root:
-  copyright: © Namika Hamasaki 2014-%{year}
-  made_by:
-    kengo: Kengo
-    namika: Namika
-    message: Lovingly made by {namika} and {kengo}
+  copyright: © Meta Andrini Utari 2018-%{year}
 index:
-  title: Namika Hamasaki — Brand and Product Designer
-  author: Namika Hamasaki
+  title: Meta Andrini Utari — User Interface / Experience Designer
+  author: Meta Andrini Utari
   description: Namika is a Brand and Product Designer based in San Francisco. Born and rised in Japan.
   greeting:
-    name: Namika
-    message: I’m {0}, a Brand and Product Designer based in San Francisco. Born and raised in Japan.
+    name: Meta
+    message: I’m {0}, a .
 about:
   title: About — Namika Hamasaki
   job: Brand and Product Designer

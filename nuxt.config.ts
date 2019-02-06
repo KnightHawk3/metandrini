@@ -5,8 +5,8 @@ import ja from "./locales/ja.json";
 import en from "./locales/en.json";
 
 const buildLocale = process.env.BUILD_LOCALE || "en";
-const productionUrlEn = "https://namika.hmsk.co";
-const productionUrlJa = " https://haiji.co";
+const productionUrlEn = "https://metandrini.me";
+const productionUrlJa = " https://in.metandrini.me";
 
 const baseUrl = buildLocale === "en" ? productionUrlEn : productionUrlJa;
 
@@ -36,7 +36,7 @@ const config = {
     orderedWorks
   },
   head: {
-    title: "Haiji Haiiro / Namika Hamasaki",
+    title: "Meta Andrini",
     meta: [
       { charset: "utf-8" },
       {

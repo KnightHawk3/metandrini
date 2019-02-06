@@ -4,7 +4,7 @@ interface FrontMatterContent {
   vue: any;
 }
 
-type AvailableLocale = "en" | "ja";
+type AvailableLocale = "en" | "in";
 
 declare module "*.md" {
   const content: FrontMatterContent;

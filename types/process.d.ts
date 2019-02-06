@@ -1,11 +1,11 @@
 declare namespace NodeJS {
   interface ProcessEnv {
-    BUILD_LOCALE: "en" | "ja";
+    BUILD_LOCALE: "en" | "in";
     GOOGLE_ANALYTICS_TRACKING_ID: string;
     baseUrl:  string;
-    buildLocale: "en" | "ja";
+    buildLocale: "en" | "in";
     productionUrlEn: string;
-    productionUrlJa: string;
+    productionUrlIn: string;
     orderedWorks: string;
   }
 }

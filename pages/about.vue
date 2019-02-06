@@ -88,7 +88,7 @@
   const PixelsStore = namespace(PixelsNamespace);
 
   import enData from "~/contents/en/about.md";
-  import jaData from "~/contents/ja/about.md";
+  import inData from "~/contents/in/about.md";
 
   @Component({
     components: {
@@ -125,7 +125,7 @@
     }
 
     get datas () {
-      return process.env.buildLocale === "ja" ? jaData : enData;
+      return process.env.buildLocale === "in" ? inData : enData;
     }
   }
 </script>

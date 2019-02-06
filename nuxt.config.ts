@@ -1,14 +1,15 @@
 import path from "path";
 
 const builtAt = new Date().toISOString();
-import ja from "./locales/ja.json";
+
+import idn from "./locales/in.json";
 import en from "./locales/en.json";
 
 const buildLocale = process.env.BUILD_LOCALE || "en";
 const productionUrlEn = "https://metandrini.me";
-const productionUrlJa = " https://in.metandrini.me";
+const productionUrlIn = " https://in.metandrini.me";
 
-const baseUrl = buildLocale === "en" ? productionUrlEn : productionUrlJa;
+const baseUrl = buildLocale === "en" ? productionUrlEn : productionUrlIn;
 
 const orderedWorks = [
   "laughly",
@@ -32,7 +33,7 @@ const config = {
     baseUrl,
     buildLocale,
     productionUrlEn,
-    productionUrlJa,
+    productionUrlIn,
     orderedWorks
   },
   head: {
@@ -192,8 +193,8 @@ const config = {
         seo: false,
         parsePages: false,
         locales: [
-          { code: "en", domain: "namika.hmsk.co" },
-          { code: "ja", domain: "haiji.co" }
+          { code: "en", domain: "metautari.me" },
+          { code: "in", domain: "in.metautari.me" }
         ],
         differentDomains: true,
         defaultLocale: buildLocale,
@@ -201,7 +202,7 @@ const config = {
           fallbackLocale: "en",
           messages: {
             en,
-            ja
+            idn
           }
         },
         silentTranslationWarn: true

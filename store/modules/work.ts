@@ -24,13 +24,13 @@ interface FrontMatterContentWithRender extends FrontMatterContent {
   staticRenderFns: string;
 }
 
-const LANGS: AvailableLocale[] = ["en", "ja"];
+const LANGS: AvailableLocale[] = ["en", "in"];
 interface ImportedFrontMatters {
   [name: string]: FrontMatterContentWithRender;
 };
 const importsByLang: {
   [lang: string]: ImportedFrontMatters;
-} = { en: {}, ja: {} };
+} = { en: {}, "in": {} };
 
 const importAll = (resolve, lang): void => {
   resolve.keys().forEach((key) => {
@@ -39,7 +39,7 @@ const importAll = (resolve, lang): void => {
   });
 };
 importAll(require.context("~/contents/en/work", true, /\.md$/), "en");
-importAll(require.context("~/contents/ja/work", true, /\.md$/), "ja");
+importAll(require.context("~/contents/in/work", true, /\.md$/), "in");
 
 
 export const name = "work";
@@ -50,7 +50,7 @@ export const types = {
 
 export interface State {
   en: Work[];
-  ja: Work[];
+  "in": Work[];
 }
 
 export const namespaced = true;
@@ -78,7 +78,7 @@ export const state = (): State => {
         }
       };
     })
-  }), { en: [], ja: [] });
+  }), { en: [], "in": [] });
 };
 
 export const getters: GetterTree<State, RootState> = {

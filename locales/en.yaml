@@ -3,10 +3,10 @@ root:
 index:
   title: Meta Andrini Utari — User Interface / Experience Designer
   author: Meta Andrini Utari
-  description: Namika is a Brand and Product Designer based in San Francisco. Born and rised in Japan.
+  description: Meta is a designer currently based in Jakarta.
   greeting:
     name: Meta
-    message: I’m {0}, a .
+    message: I’m {0}, a designer currently based in Jakarta.
 about:
   title: About — Namika Hamasaki
   job: Brand and Product Designer

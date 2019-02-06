@@ -20,7 +20,7 @@
         :work="work"
       />
     </div>
-    <div id="articles">
+    <div id="articles" style="display: none">
       <span class="articlesTitle">
         Articles
       </span>

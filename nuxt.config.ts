@@ -12,19 +12,7 @@ const productionUrlIn = " https://in.metandrini.me";
 const baseUrl = buildLocale === "en" ? productionUrlEn : productionUrlIn;
 
 const orderedWorks = [
-  "laughly",
-  "finery",
-  "stimpacks",
-  "wonolo",
-  "pokemon-go",
-  "amazarashi",
-  "libzcareer",
-  "weekend-creator",
-  "signifiant",
-  "remote-style",
-  "dcf",
-  "googleplay-game-effect",
-  "logofolio"
+  "100brisbane",
 ].join(",");
 
 const config = {

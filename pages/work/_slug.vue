@@ -22,7 +22,7 @@
         :render-func="work.renderFunc"
         :static-render-funcs="work.staticRenderFuncs"
       />
-      <div id="relatedWorks">
+      <div v-if="relatedWorks" id="relatedWorks">
         <span class="relatedWorks-header">
           {{ $t("work.see_more") }}
         </span>
@@ -91,7 +91,11 @@
     }
 
     get relatedWorks (): Work[] {
-      return this.work.related.map(related => this.pick(related)).filter(w => !!w);
+      if (this.work.related) {
+        return this.work.related.map(related => this.pick(related)).filter(w => !!w);
+      } else {
+        return null;
+      }
     }
 
     validate ({ store, params }): boolean {

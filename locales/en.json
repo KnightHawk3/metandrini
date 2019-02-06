@@ -1,23 +1,18 @@
 {
   "root": {
-    "copyright": "© Namika Hamasaki 2014-%{year}",
-    "made_by": {
-      "kengo": "Kengo",
-      "namika": "Namika",
-      "message": "Lovingly made by {namika} and {kengo}"
-    }
+    "copyright": "© Meta Andrini Utari 2018-%{year}"
   },
   "index": {
-    "title": "Namika Hamasaki — Brand and Product Designer",
-    "author": "Namika Hamasaki",
-    "description": "Namika is a Brand and Product Designer based in San Francisco. Born and rised in Japan.",
+    "title": "Meta Andrini Utari — User Interface / Experience Designer",
+    "author": "Meta Andrini Utari",
+    "description": "Meta is a designer based in Jakarta.",
     "greeting": {
-      "name": "Namika",
-      "message": "I’m {0}, a Brand and Product Designer based in San Francisco. Born and raised in Japan."
+      "name": "Meta",
+      "message": "I’m {0}, a designer based in Jakarta."
     }
   },
   "about": {
-    "title": "About — Namika Hamasaki",
+    "title": "About — Meta Andrini Utari",
     "job": "Brand and Product Designer",
     "hello": "Say Hello",
     "resume": "Download Resume",
@@ -26,7 +21,7 @@
     "specialities": "Specialities:"
   },
   "work": {
-    "title": "%{name} — Namika Hamasaki",
+    "title": "%{name} — Meta Andrini Utari",
     "product_owner": "Product Owner:",
     "role": "Role:",
     "see_more": "See More"

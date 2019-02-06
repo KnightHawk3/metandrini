@@ -63,24 +63,6 @@
             Source and Licenses
           </a>
         </span>
-        <i18n
-          path="root.made_by.message"
-          tag="span"
-        >
-          <nuxt-link
-            to="/about"
-            place="namika"
-          >
-            {{ $t("root.made_by.namika") }}
-          </nuxt-link>
-          <a
-            href="https://hmsk.me"
-            target="_blank"
-            place="kengo"
-          >
-            {{ $t("root.made_by.kengo") }}
-          </a>
-        </i18n>
       </div>
     </footer>
   </div>
@@ -108,7 +90,7 @@
       return [
         ["dribbble", "https://dribbble.com/haiji505"],
         ["instagram", "https://www.instagram.com/haiji505/"],
-        ["linkedin", "https://www.linkedin.com/in/namika-hamasaki/"],
+        ["linkedin", "https://www.linkedin.com/in/meta-hamasaki/"],
         ["github", "https://github.com/haiji505"],
         ["twitter", "https://twitter.com/haiji505"]
       ];

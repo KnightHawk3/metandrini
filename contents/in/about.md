@@ -1,56 +1,24 @@
 ---
 specialities:
-  - ユーザインタフェースデザイン
-  - スタートアップ企業のブランディング
-  - イベント企画やデジタルプロモーション
+  - Fuckin everything
+  - Design n shit ya feel
 careers:
   -
-    employer: Tradecraft
-    title: プロダクトデザイナー
-    location: サンフランシスコ
+    employer: Studio Culture
+    title: Web Designer
+    location: Brisbane, Australia
     period: 2017 - 2018
-    link: http://tradecraft.com/
   -
-    employer: フリーランス
-    title: UX/UIデザイナー
-    location: 東京
-    period: 2016 - 2017
-  -
-    employer: LiB
-    title: UX/UI デザイナー
-    location: 東京
-    period: 2016 - 2017
-    link: https://www.libinc.co.jp/
-  -
-    employer: SIX
-    title: インタラクティブプランナー、UIデザイナー
-    location: 東京
-    period: 2013 - 2015
-    link: http://sixinc.jp/
-  -
-    employer: 博報堂
-    title: インタラクティブプランナー
-    location: 東京
-    period: 2013
-    link: http://www.hakuhodo.co.jp/
-  -
-    employer: 博報堂アイ・スタジオ
-    title: ウェブデザイナー
-    location: 東京
-    period: 2009 - 2013
-    link: https://www.i-studio.co.jp/
-  -
-    employer: はてな
-    title: ウェブデザイナー、ディレクター
-    location: 京都
-    period: 2008
-    link: http://hatenacorp.jp/
-  -
-    employer: 京都造形芸術大学
-    title: 芸術学部 情報デザイン学科
-    location: 京都
-    period: 2005 - 2009
-    link: https://www.kyoto-art.ac.jp/
+    employer: Happy Fresh
+    title: UI/UX Internship
+    location: Jakarta, Indonesia
+    period: 2017
+    link: http://happyfresh.id/
 ---
 
-サンフランシスコ在住。博報堂グループでウェブデザイナーを経験後、クリエイティブエージェンシーSIXでプランナーに転身。グーグルやソニー・コンピュータエンタテインメントといったクライアントのデジタル施策の企画を中心に、インターフェースのデザインも手がける。主な仕事にPokémon GOのトレーラー映像や、AmazarashiのMV内のUIデザインなど。2015年に独立後、サンフランシスコのプロダクトデザイナー養成所Tradecraftに所属し、米スタートアップのプロダクトの改善やパッケージデザインを数点手がけ、現在は個人として活動中。好きなものはスプラトゥーンと、お米と緑茶。
+
+Hi there! My name is Meta, I graduated from The University of Indonesia and The University of Queensland in 2018 with Bachelors of Computer Science and Information Technology, respectively. I am a UI/UX designer who sees my work as challenges to solve in the most beautiful way possible.
+
+My foray into UI/UX began in 2016 during my sophomore year of university; a natural progression after having dabbled in graphic design and HTML/CSS from high school. At that point, I had moved my way up from churning out graphics and decorative web elements on Internet forums to designing publication assets for school and faculty events, so I set my eyes on UI/UX as the new exciting thing!
+
+I am a quick learner who's always up for a challenge (ask me about that time I had to learn Adobe Illustrator in under a week to design posters and make illustrations! Or when I surprised my supervisor by coding a micro-interaction prototype on Framer for the first time!). Working by myself or in a team, on one project for the same startup or on websites for different clients, I am keen to sink my teeth into new experiences. Currently, I seek to expand my knowledge by branching out to mobile applications and/or research.

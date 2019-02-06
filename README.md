@@ -1,9 +1,9 @@
 # violet
 
-Pre-rendered portfolio websites for Haiiro Haiji / Namika Hamasaki.
+Pre-rendered portfolio websites for Haiiro Haiji / Meta Andrini Utari.
 
 - Japanese build: https://haiji.co/
-- English build: https://namika.hmsk.co/
+- English build: https://meta.hmsk.co/
 
 ## Setup / Update installed packages
 
@@ -77,6 +77,6 @@ description: |
 
 - [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) for [SVG icons](/assets/icons) excepting `hatenablog.svg` by [FontAwesome](https://fontawesome.com/license)
 - Each author of [depending NPM modules](/package.json) which are published under the "MIT" or "ISC" reserve all their copyright
-- Namika Hamasaki / Haiji Haiiro reserves all copyright for [Markdown documents](/contents)
-- Namika Hamasaki / Haiji Haiiro or the each product owners reserve copyright for [Image or Video files](/static/images) of their content
-- Kengo Hamasaki and Namika Hamasaki / Haiji Haiiro reserve copyright for source codes of this project under the [MIT License](/LICENSE)
+- Meta Andrini Utari / Haiji Haiiro reserves all copyright for [Markdown documents](/contents)
+- Meta Andrini Utari / Haiji Haiiro or the each product owners reserve copyright for [Image or Video files](/static/images) of their content
+- Kengo Hamasaki and Meta Andrini Utari / Haiji Haiiro reserve copyright for source codes of this project under the [MIT License](/LICENSE)
